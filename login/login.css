@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-container{
+    display: flex;
+    border: 1px solid black;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-title{
+    text-align: center;
+}
+.input-container{
+    margin: 2rem 0rem;
+}
+
+.login-card{
+    border: 1px solid brown;
+    width: 22rem;
+    padding: 0.5rem;
+}
+
+#userName{
+    margin-bottom: 1.5rem;
+}
+
+.btn-secondary{
+    width: 100%;
+}
+
+.no-account{
+    margin: 1rem 0rem;
+    text-align: center;
+}
+
+.no-account a{
+    color: inherit;
+}
