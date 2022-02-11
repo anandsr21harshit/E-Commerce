@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+
+
+:root{
+    --nav-background-color:black;
+    --brand-text-color:white;
+}
+.nav-bar{
+    background-color: var(--nav-background-color);
+}
+.nav-brand{
+    font-family: 'Akaya Telivigala', cursive;
+    color: var(--brand-text-color);
+    justify-content: space-evenly;
+}
+
 .search{
     display: flex;
     flex-grow: 1;
@@ -11,3 +28,18 @@
     border: none;
 }
 
+.menus{
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+.menu{
+    margin: 0 1rem;
+}
+
+#cart{
+    font-size: 1.5rem;
+}
+
+#wishlist{
+    font-size: 1.5rem;
+}
