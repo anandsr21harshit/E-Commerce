@@ -1,6 +1,13 @@
+.search{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
 .search > input{
+    outline: none;
+    padding: 0.6rem;
+    width: 50%;
+    border-radius: 0.2rem;
     border: none;
-    padding: 0.5rem;
-    min-width: 30rem;
 }
 
