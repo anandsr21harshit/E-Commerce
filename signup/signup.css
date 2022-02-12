@@ -1,8 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url("../css/global.css");
+
 .login-container{
     display: flex;
     height: 80vh;
