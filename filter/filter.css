@@ -1,0 +1,19 @@
+@import url("../css/global.css");
+
+.filter-container{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 14rem;
+    padding: 0.5rem;
+    border: 1px solid brown;
+}
+
+.slider span:nth-child(2){
+    margin-left: 3.5rem;
+}
+
+.slider input{
+    width: 10rem;
+}
