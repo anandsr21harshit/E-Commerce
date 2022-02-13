@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://edithui.netlify.app/components/usage.css">
+    <link rel="stylesheet" href="cart.css">
+    <title>Cart</title>
+</head>
+<body>
+    <section class="cart-container">
+        <div class="product">
+            <div class="card-container">
+                <div class="card card-without-icons card-product">
+                    <div class="card-img">
+                        <img src="../images/light1.jpg" alt="Light1">
+                    </div>
+                    
+                    <div class="card-content">
+                        <h1 class="product-name">Wall hanging Light</h1>
+                        <h4 class="product-price"> Rs 9999.00</h4>
+                    </div>
+                    <div class="quantity-container">
+                        <span>Quantity: </span>
+                        <div class="quantity">
+                            <button class="quantity-increase">+</button>
+                            <input type="number" class="quantity-input">
+                            <button class="quantity-decrease">-</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline btn-secondary-outline" type="button">Remove from Cart</button>
+                    <button class="btn btn-secondary" type="button">Add to Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="price-summary">
+            <div class="card-container">
+                <div class="card card-without-image card-price-summary">
+                    <h1>Cart Items</h1>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="price-details">
+                        <span>Price</span>
+                        <span class="currency">9999</span>
+                    </div>
+                    <div class="price-details">
+                        <span>Discount</span>
+                        <span class="currency">2000</span>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="price-details">
+                        <span>Total Amount</span>
+                        <span class="currency">7999</span>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <button class="btn btn-secondary" type="button">Add to Wishlist</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
