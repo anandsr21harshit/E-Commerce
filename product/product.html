@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://edithui.netlify.app/components/usage.css">
     <link rel="stylesheet" href="../navigation/navigation.css">
+    <link rel="stylesheet" href="../filter/filter.css">
+    <link rel="stylesheet" href="product.css">
     <title>Products</title>
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="nav-bar">
         <h1 class="nav-brand">The Lighthouse</h1>
         <div class="search">
@@ -24,5 +27,79 @@
             <li class="menu"><a href="../login/login.html">Login</a></li>
         </ul>
     </nav>   
+    
+    <!-- Filter -->
+    <aside class="filter-container">
+        <h1 class="filter-heading">Filter</h1>
+        <div class="slider">
+          <span>Rs 500</span>
+          <span>Rs 5000</span>
+          <input type="range" min="0" max="100" />
+        </div>
+        <div class="price-range">
+          <h1>Price</h1>
+          <ul class="price-list">
+            <li>
+              <input type="radio" name="price" id="price-range1" />
+              <label for="price-range1">Under Rs 5000</label>
+            </li>
+            <li>
+              <input type="radio" name="price" id="price-range2" />
+              <label for="price-range2">Under Rs 10000</label>
+            </li>
+            <li>
+              <input type="radio" name="price" id="price-range3" />
+              <label for="price-range3">Under Rs 50000</label>
+            </li>
+            <li>
+              <input type="radio" name="price" id="price-range4" />
+              <label for="price-range4">Under Rs 100000</label>
+            </li>
+          </ul>
+        </div>
+        <div class="category">
+          <h1>Category</h1>
+          <ul class="category-list">
+            <li>
+              <input type="checkbox" id="computers" />
+              <label for="computers">Computers</label>
+            </li>
+            <li>
+              <input type="checkbox" id="mobile" />
+              <label for="mobile">Mobile Phones</label>
+            </li>
+            <li>
+              <input type="checkbox" id="televison" />
+              <label for="televison">Televison</label>
+            </li>
+            <li>
+              <input type="checkbox" id="accessories" />
+              <label for="accessories">Accessories</label>
+            </li>
+          </ul>
+        </div>
+        <div class="rating">
+          <h1>Ratings</h1>
+          <ul class="rating-list">
+              <li>
+                  <input type="radio" name="rating" id="rating1" />
+                  <label for="rating-1">4 stars and above</label>
+              </li>
+              <li>
+                  <input type="radio" name="rating" id="rating2" />
+                  <label for="rating-2">3 stars and above</label>
+              </li>
+              <li>
+                  <input type="radio" name="rating" id="rating3" />
+                  <label for="rating-3">2 stars and above</label>
+              </li>
+              <li>
+                  <input type="radio" name="rating" id="rating4" />
+                  <label for="rating-4">1 star and above</label>
+              </li>
+          </ul>
+          </div>
+        </div>
+      </aside>
 </body>
 </html>
