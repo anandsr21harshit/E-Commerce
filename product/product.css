@@ -6,6 +6,7 @@
 
 .product-wrapper{
     display: flex;
+    margin-bottom: 2rem;
 }
 
 .product-container{
