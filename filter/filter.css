@@ -10,7 +10,8 @@
     flex-direction: column;
     width: 12rem;
     border: 1px solid var(--border-light);
-    top: 5rem;
+    top: 10rem;
+    left: 1rem;
 }
 .filter-heading{
     padding: 1rem;
