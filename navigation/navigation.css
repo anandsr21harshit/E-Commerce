@@ -11,9 +11,14 @@
 .nav-bar{
     background-color: var(--nav-background-color);
     margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
 }
 .nav-brand{
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Akaya Telivigala';
     color: var(--brand-text-color);
     justify-content: space-evenly;
 }
