@@ -1,3 +1,9 @@
+@import url("../css/global.css");
+
+.carousel {
+    top: 5rem;
+}
+
 .carousel-image{
     height: 30rem;
     object-fit: scale-down;
@@ -8,7 +14,7 @@
 }
 
 .product-container{
-    margin:5rem 0 5rem 10rem;
+    margin:8rem 0 5rem 10rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 20px;
