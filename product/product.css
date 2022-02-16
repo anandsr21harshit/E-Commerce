@@ -1,5 +1,5 @@
 .filter-container{
-    margin:1rem;
+    margin:5rem 1rem 1rem 1rem;
 }
 
 /* Product Container Style  */
@@ -7,6 +7,7 @@
 .product-wrapper{
     display: flex;
     margin-bottom: 2rem;
+    margin-top: 5rem;
 }
 
 .product-container{
