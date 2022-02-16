@@ -1,22 +1,8 @@
 @import url("../css/global.css");
+@import url("../login/login.css");
 
 .login-container{
-    display: flex;
-    height: 80vh;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-title{
-    text-align: center;
-}
-.input-container{
-    margin: 2rem 0rem;
-}
-
-.input-container a{
-    color: inherit;
-    text-decoration: none;
+    margin-top:8rem ;
 }
 
 #conditions{
@@ -36,19 +22,8 @@ input[type="checkbox"]{
     padding: 0.5rem;        
 }
 
-.login-card{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-    width: 22rem;
-    padding: 0.5rem;
-    border: 2px solid rgba(0, 0, 0, 0.1);
-}
-
 #userName{
     margin-bottom: 1.5rem;
-}
-
-.btn-secondary{
-    width: 100%;
 }
 
 .have-account{
