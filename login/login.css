@@ -1,13 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url("../css/global.css");
+
 .login-container{
     display: flex;
     height: 80vh;
     align-items: center;
     justify-content: center;
+    margin-top:5rem ;
 }
 
 .login-title{
@@ -19,7 +17,6 @@
 
 .input-container a{
     color: inherit;
-    text-decoration: none;
 }
 
 .login-card{
