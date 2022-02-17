@@ -1,0 +1,9 @@
+@import url("https://edithui.netlify.app/components/usage.css");
+@import url("../css/global.css");
+@import url("../cart/cart.css");
+@import url("../filter/filter.css");
+@import url("../login/login.css");
+@import url("../navigation/navigation.css");
+@import url("../product/product.css");
+@import url("../signup/signup.css");
+@import url("../home/home.css");
