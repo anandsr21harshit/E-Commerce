@@ -108,5 +108,8 @@
     .search input{
         display: none;
     }
+    .nav-brand{
+        font-size: 3rem;
+    }
 }
 
