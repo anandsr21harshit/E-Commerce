@@ -64,8 +64,9 @@
     margin: 0 auto;
 }
 
-.stacked:hover{
-    cursor: pointer;
+.stacked a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .menu{
