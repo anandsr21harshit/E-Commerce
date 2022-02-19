@@ -13,6 +13,7 @@
 }
 .input-container{
     margin: 2rem 0rem;
+    width: 100%;
 }
 
 .input-container a{
@@ -41,4 +42,28 @@
 
 .no-account a{
     color: inherit;
+}
+
+@media screen and (max-width:600px) {
+    .login-card{
+        width: 20rem;
+    }
+    .btn{
+        padding: 0.5rem 0.5rem;
+    }
+    .input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .login-card{
+        width: 18rem;
+    }
+    .btn{
+        padding: 0.5rem 0.5rem;
+    }
+    .input{
+        width: 100%;
+    }
 }
