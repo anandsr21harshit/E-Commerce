@@ -21,9 +21,9 @@
     align-items: center;
 }
 .card-img img{
-    object-fit: cover;
-    object-position: 50% 60%;
-    width: 20rem;
+    overflow: hidden;
+    width: 18rem;
+    height: 15rem;
 }
 
 .product-name{
@@ -71,4 +71,17 @@
 .btn{
     width: 80%;
     margin: 0.5rem 0;
+}
+
+@media screen and (max-width:400px) {
+    .card-img img{
+        width: 15rem;
+        height: 12rem;
+    }
+    .btn{
+        padding: 0.5rem 0.5rem;
+    }
+    .card-without-image{
+        width: 15rem;
+    }
 }
